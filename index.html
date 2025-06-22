@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+
+<body>
+    <header>
+        <img src="imgs/logouade.png" id="logo-claro" alt="logo claro" >
+        <img src="/imgs/logouade-invert.png" id="logo-oscuro" alt="logo oscuro">
+
+        <button id="menu-toggle" class="hamburguesa" aria-label="Abrir menú">&#9776;</button>
+
+        <nav> 
+            <ul id="milista">                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobremi.html">Sobre Mi</a></li>
+                <li><a href="avisos.html">Avisos</a></li>
+                <li><a href="materias.html">Materias</a></li>
+                 <li><a href="contacto.html">Contacto</a></li>
+             </ul>     
+        </nav>
+
+        <div class="modo-botones">
+            <button id="modo-claro">Modo Claro</button>
+            <button id="modo-oscuro">Modo Oscuro</button>
+        </div>
+ 
+    </header>       
+
+    <main>
+        <table id="table" border="4">
+            <tr>
+             <th>MATERIAS</th><th>DÍA</th> <th>HORARIO</th><th>MODALIDAD</th>
+            </tr>
+                    <tr>
+                        <td align="center">Diseño y Desarrollo Web</td> <td> Martes</td> <td>18.30hs a 20.30hs</td><td align="center">Virtual</td>
+                    </tr>
+                    <tr>
+                        <td align="center">Gestión de Personas en Org. de Tecnología</td><td> Jueves</td> <td>18.30hs a 20.30hs</td><td align="center">Virtual</td>
+                    </tr>
+                    <tr>
+                        <td align="center">Testing de Aplicaciones</td><td> Viernes</td> <td>18.30hs a 22.00hs</td><td align="center">Presencial</td>
+                    </tr>
+         </table>
+    </main>
+
+    <footer id="footer">
+        <p> Curso: 516035  | Profesora: Litovicius, Patricia Carina</p>
+    </footer>
+   
+    <script src="jscript/menu.js"></script>
+    <script src="jscript/modo.js"></script>
+
+</body>
+</html> 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <img src="imgs/logouade.png" id="logo-claro" alt="logo claro" >
+        <img src="/imgs/logouade-invert.png" id="logo-oscuro" alt="logo oscuro">
+        <button id="menu-toggle" class="hamburguesa" aria-label="Abrir menú">&#9776;</button>
+
+        <nav> 
+            <ul id="milista">                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobremi.html">Sobre Mi</a></li>
+                <li><a href="avisos.html">Avisos</a></li>
+                <li><a href="materias.html">Materias</a></li>
+                 <li><a href="contacto.html">Contacto</a></li>
+             </ul>     
+        </nav>
+
+        <div class="modo-botones">
+            <button id="modo-claro">Modo Claro</button>
+            <button id="modo-oscuro">Modo Oscuro</button>
+        </div>
+    </header> 
+
+    <main>
+        <h2 id="contacto">Contáctame</h2>
+
+        <div  class="formulario">
+         <form id=formulario-contacto class="formulario2" action="/action_page.php">
+              <label for="nombre">Nombre:</label><br>
+              <input type="text" id="nombre" name="nombre" value=""><br>
+
+              <label for="email">E-mail:</label><br>
+              <input type="text" id="email" name="email" value=""><br>
+
+              <label for="asunto">Asunto:</label><br>
+              <input type="text" id="asunto" name="asunto" value=""><br>
+
+              <label for="telefono">Telefono:</label><br>
+              <input type="tel" id="telefono" name="telefono" value="" ><br>
+
+              <label for="consulta">Consulta:</label><br>
+              <textarea id=consulta name="message" class="campo-input" rows="10" cols="30"> </textarea>
+              <br>             
+              <input type="submit" value="Enviar">
+
+            </form> 
+            <img src="imgs/contacto.avif" alt="imgconsulta" id="imgconsulta"> 
+        </div> 
+          
+    <div id="mensaje-resultado" style="text-align: center; margin-top: 20px;"></div>
+    
+    </main>
+
+    <footer id="footer">
+        <p> Curso: 516035  | Profesora: Litovicius, Patricia Carina</p>
+    </footer>
+
+    <script src="jscript/menu.js"></script>
+    <script src="jscript/formulario.js"></script>
+    <script src="jscript/modo.js"></script>
+
+    </body>
+</html>
