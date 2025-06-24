@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const asunto = document.getElementById('asunto');
   const consulta = document.getElementById('consulta');
   const resultado = document.getElementById('mensaje-resultado');
-  const telefono = document.getElementById('telefono'); // ✅ Campo teléfono agregado
+  const telefono = document.getElementById('telefono'); 
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
